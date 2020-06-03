@@ -4,10 +4,32 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Daniel';
+let greeting = 'HEY';
 
 
+function multiply(num) {
+  x = x * num;
+}
 
+function modYBy(remainder) {
+  y = y % remainder;
+}
 
+function opposite(swap) {
+  z = swap * -1;
+}
+
+function makeFullName(surname) {
+  name = name + ' ' + surname
+}
+
+function yellAt(message) {
+  greeting  = greeting + ', ' + message + '!';
+}
 
 /*********************************************************************************************************************
 
